@@ -1,0 +1,159 @@
+/* Body con sfondo animato */
+body {
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Contenitore principale */
+  .community-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    max-width: 800px;
+    margin: 0 auto; /* Centrato orizzontalmente */
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  /* Animazione del background */
+  @keyframes backgroundAnimation {
+    0% {
+      background-color: #f4f4f9;
+    }
+    100% {
+      background-color: #ffffff;
+    }
+  }
+  
+  /* Titolo */
+  .community-title {
+    color: #007bff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Form di invio messaggio */
+  .form-custom .form-group {
+    margin-bottom: 2rem; /* Maggiore spazio tra gli input */
+  }
+  
+  .form-control-custom {
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .form-control-custom:focus {
+    border-color: #007bff;
+    background-color: #ffffff;
+  }
+  
+  /* Pulsante di invio */
+  .button-feedback {
+    background-color: #007bff;
+    color: white;
+    border-radius: 25px;
+    font-size: 1.25rem;
+    padding: 14px 0;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Espande il bottone per tutta la larghezza */
+  }
+  
+  .button-feedback:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Messaggi di successo o errore */
+  .alert-custom {
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .alert-custom.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+  }
+  
+  .alert-custom.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+  }
+  
+  /* Lista dei messaggi */
+  .messages-title {
+    color: #007bff;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .message-list {
+    margin-top: 20px;
+  }
+  
+  .message-item {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Nessun messaggio */
+  .no-message {
+    color: #aaa;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+  }
+  
+  /* Stile per la lista */
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  ul li a:hover {
+    color: #0056b3;
+  }
+
+  .intro-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .intro-image {
+    width: 150px; 
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .intro-text {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  

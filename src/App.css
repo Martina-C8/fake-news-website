@@ -1,0 +1,187 @@
+/* Stile di base */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #343a40;
+  color: white;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Stile delle card */
+.card {
+  margin-bottom: 20px;
+}
+
+/* Formattazione per il form di messaggistica */
+.form-control {
+  border-radius: 10px;
+}
+
+.button-feedback {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.button-feedback:hover {
+  background-color: #218838;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+footer .text-center {
+  text-align: center;
+}
+
+footer img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer h5 {
+  font-size: 1.2rem;
+}
+
+footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* Responsività */
+@media (max-width: 768px) {
+  footer .text-center {
+    text-align: left;
+  }
+
+  footer .col-md-6 {
+    margin-bottom: 1rem;
+  }
+
+  footer img {
+    width: 150px;
+  }
+
+  footer h5 {
+    font-size: 1.1rem;
+  }
+
+  footer ul li {
+    font-size: 0.9rem;
+  }
+
+  footer ul {
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  footer img {
+    width: 100px;
+  }
+
+  footer h5 {
+    font-size: 1rem;
+  }
+
+  footer ul li {
+    font-size: 0.8rem;
+  }
+
+  footer .col-md-6 {
+    text-align: center;
+  }
+
+  footer .list-unstyled {
+    padding-left: 0;
+  }
+}
+
+/* Card in Home */
+.home-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card {
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    padding: 1.5rem;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-text {
+    font-size: 0.8rem;
+  }
+
+  .btn-lg {
+    width: 100%;
+    padding: 1rem;
+  }
+}
