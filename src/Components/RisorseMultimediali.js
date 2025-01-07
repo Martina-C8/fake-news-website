@@ -70,7 +70,6 @@ function RisorseMultimediali() {
           </Col>
         </Row>
 
-        {/* Sezione Infografiche */}
         <Row className="mb-4">
           <Col md={6}>
             <motion.div
@@ -109,7 +108,6 @@ function RisorseMultimediali() {
           </Col>
         </Row>
 
-        {/* Sezione Link Utili */}
         <Row className="mb-4">
           <Col md={12}>
             <motion.div

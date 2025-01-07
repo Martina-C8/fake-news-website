@@ -1,10 +1,8 @@
-/* Body con sfondo animato */
 body {
     background-color: #f4f4f9;
     font-family: 'Arial', sans-serif;
   }
   
-  /* Contenitore principale */
   .community-container {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -13,12 +11,11 @@ body {
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
     max-width: 800px;
-    margin: 0 auto; /* Centrato orizzontalmente */
+    margin: 0 auto; 
     padding-left: 20px;
     padding-right: 20px;
   }
   
-  /* Animazione del background */
   @keyframes backgroundAnimation {
     0% {
       background-color: #f4f4f9;
@@ -28,7 +25,6 @@ body {
     }
   }
   
-  /* Titolo */
   .community-title {
     color: #007bff;
     font-weight: bold;
@@ -37,9 +33,8 @@ body {
     margin-bottom: 30px;
   }
   
-  /* Form di invio messaggio */
   .form-custom .form-group {
-    margin-bottom: 2rem; /* Maggiore spazio tra gli input */
+    margin-bottom: 2rem; 
   }
   
   .form-control-custom {
@@ -56,7 +51,6 @@ body {
     background-color: #ffffff;
   }
   
-  /* Pulsante di invio */
   .button-feedback {
     background-color: #007bff;
     color: white;
@@ -64,14 +58,13 @@ body {
     font-size: 1.25rem;
     padding: 14px 0;
     transition: background-color 0.3s ease;
-    width: 100%; /* Espande il bottone per tutta la larghezza */
+    width: 100%; 
   }
   
   .button-feedback:hover {
     background-color: #0056b3;
   }
   
-  /* Messaggi di successo o errore */
   .alert-custom {
     border-radius: 10px;
     padding: 1rem;
@@ -90,7 +83,6 @@ body {
     color: #721c24;
   }
   
-  /* Lista dei messaggi */
   .messages-title {
     color: #007bff;
     font-size: 1.25rem;
@@ -111,7 +103,6 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
-  /* Nessun messaggio */
   .no-message {
     color: #aaa;
     text-align: center;
@@ -119,7 +110,6 @@ body {
     padding: 10px;
   }
   
-  /* Stile per la lista */
   ul {
     list-style: none;
     padding-left: 0;

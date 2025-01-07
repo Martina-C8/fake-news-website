@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 const BioparchiPage = () => {
   return (
     <Container className="mt-5">
-      {/* Titolo e Introduzione */}
       <Row className="justify-content-center text-center">
         <Col md={10} lg={8}>
           <motion.div
@@ -24,7 +23,6 @@ const BioparchiPage = () => {
         </Col>
       </Row>
 
-      {/* Sezione 1: Cosa sono i bioparchi */}
       <Row className="align-items-center mt-5">
         <Col md={6}>
           <motion.div
@@ -59,7 +57,6 @@ const BioparchiPage = () => {
         </Col>
       </Row>
 
-      {/* Sezione 2: Le fake news più comuni */}
       <Row className="mt-5">
         <Col md={12}>
           <motion.div
@@ -105,7 +102,6 @@ const BioparchiPage = () => {
         </Col>
       </Row>
 
-      {/* Sezione 3: Come aiutano i bioparchi */}
       <Row className="align-items-center mt-5">
         <Col md={6}>
           <motion.div
@@ -139,7 +135,6 @@ const BioparchiPage = () => {
         </Col>
       </Row>
 
-      {/* Call-to-Action */}
       <Row className="mt-5">
         <Col md={12} className="text-center">
           <motion.div

@@ -165,7 +165,6 @@ function Approfondimenti() {
   </Col>
 </Row>
 
-        {/* Sezione Link Utili */}
         <Row className="mb-4">
           <Col md={12}>
             <motion.div
@@ -191,7 +190,6 @@ function Approfondimenti() {
           </Col>
         </Row>
 
-        {/* Sezione di Contatti */}
         <Row className="mb-4">
           <Col md={12}>
             <motion.div

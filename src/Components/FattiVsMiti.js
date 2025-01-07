@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import { Card, Button, Collapse, Alert, Row, Col, Container } from 'react-bootstrap';
-import { motion } from 'framer-motion'; // Animazioni con framer-motion
+import { motion } from 'framer-motion'; 
 
 function FattiVsMiti() {
   const [showAnswer, setShowAnswer] = useState(null);
   const [isCorrect, setIsCorrect] = useState(null);
 
-  // Domande e risposte
   const questions = [
     {
       statement: 'I bioparchi moderni sono dedicati alla conservazione delle specie minacciate e all\'educazione ambientale.',
@@ -154,12 +153,11 @@ function FattiVsMiti() {
           <Card className="mb-4 shadow-lg rounded-4 border-0 d-flex justify-content-center " style={{ minHeight: '250px' }}>
             <Row className="w-100">
               <Col md={6} className="d-flex justify-content-center align-items-center">
-                {/* Spazio per l'immagine */}
                 {question.image ? (
                   <img src={question.image} alt="Immagine" className="rounded" style={{ width: '100%', height: 'auto'}} />
                 ) : (
                   <div className="w-100" style={{ height: '200px', backgroundColor: '#f0f0f0', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                    <span>Immagine</span> {/* Puoi scrivere un testo temporaneo */}
+                    <span>Immagine</span> 
                   </div>
                 )}
               </Col>

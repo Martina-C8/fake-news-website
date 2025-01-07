@@ -78,7 +78,6 @@ function GuidaVerifica() {
           </Col>
         </Row>
 
-        {/* Sezione Approfondimenti sulla Verifica delle Fonti */}
         <Row className="mb-4">
           <Col md={6}>
             <motion.div
@@ -124,7 +123,6 @@ function GuidaVerifica() {
           </Col>
         </Row>
 
-        {/* Sezione Risorse per Verificare le Fonti */}
         <Row className="mb-4">
           <Col md={12}>
             <motion.div
