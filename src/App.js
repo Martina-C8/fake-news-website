@@ -9,6 +9,7 @@ import GuidaVerifica from './Components/GuidaVerifica';
 import RisorseMultimediali from './Components/RisorseMultimediali';
 import Community from './Components/Community';
 import Footer from './Components/Footer';
+import BioparchiPage from './Components/BioparchiPage';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
               <Nav.Link href="/guida-verifica">Guida alla Verifica</Nav.Link>
               <Nav.Link href="/risorse-multimediali">Risorse Multimediali</Nav.Link>
               <Nav.Link href="/community">Community</Nav.Link>
+              <Nav.Link href="/BioparchiPage">I Bioparchi</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -46,6 +48,7 @@ function App() {
           <Route path="/guida-verifica" element={<GuidaVerifica />} />
           <Route path="/risorse-multimediali" element={<RisorseMultimediali />} />
           <Route path="/community" element={<Community />} />
+          <Route path="/BioparchiPage" element={<BioparchiPage />} />
         </Routes>
       </Container>
       
