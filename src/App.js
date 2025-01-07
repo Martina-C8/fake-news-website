@@ -29,12 +29,13 @@ function App() {
           <Navbar.Collapse id="navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/BioparchiPage">I Bioparchi</Nav.Link>
               <Nav.Link href="/fatti-vs-miti">Fatti vs Miti</Nav.Link>
               <Nav.Link href="/approfondimenti">Approfondimenti</Nav.Link>
               <Nav.Link href="/guida-verifica">Guida alla Verifica</Nav.Link>
               <Nav.Link href="/risorse-multimediali">Risorse Multimediali</Nav.Link>
               <Nav.Link href="/community">Community</Nav.Link>
-              <Nav.Link href="/BioparchiPage">I Bioparchi</Nav.Link>
+             
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -43,12 +44,12 @@ function App() {
       <Container className="mt-4">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/BioparchiPage" element={<BioparchiPage />} />
           <Route path="/fatti-vs-miti" element={<FattiVsMiti />} />
           <Route path="/approfondimenti" element={<Approfondimenti />} />
           <Route path="/guida-verifica" element={<GuidaVerifica />} />
           <Route path="/risorse-multimediali" element={<RisorseMultimediali />} />
           <Route path="/community" element={<Community />} />
-          <Route path="/BioparchiPage" element={<BioparchiPage />} />
         </Routes>
       </Container>
       

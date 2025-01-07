@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Button, Row, Col, Image } from 'react-bootstrap';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+
 
 const Home = () => {
   return (
@@ -51,19 +53,19 @@ const Home = () => {
             <h2 className="text-primary mb-3">Cosa troverai qui:</h2>
             <ul className="list-unstyled text-muted lead">
               <li className="mb-3">
-                ✅ Fatti vs Miti: Smontiamo le fake news più comuni sull'ambiente con un approccio divertente.
+                <strong><Link to="/fatti-vs-miti" className="text-dark text-decoration-underline">Fatti vs Miti</Link></strong>: Smontiamo le fake news più comuni sull'ambiente con un approccio divertente.
               </li>
               <li className="mb-3">
-                ✅ Approfondimenti: Risposte a domande più comuni, video e guide sull'ambiente.
+                <strong><Link to="/approfondimenti" className="text-dark text-decoration-underline">Approfondimenti</Link></strong>: Risposte a domande più comuni, video e guide sull'ambiente.
               </li>
               <li className="mb-3">
-                ✅ Guida alla verifica: Un ottimo modo per misurare la veridicità di un URL e altre informazioni utili.
+                <strong><Link to="/guida-verifica" className="text-dark text-decoration-underline">Guida alla verifica</Link></strong>: Un ottimo modo per misurare la veridicità di un URL e altre informazioni utili.
               </li>
               <li className="mb-3">
-                ✅ Risorse multimediali: Un ottimo modo per misurare la veridicità di un URL e altre informazioni utili.
+                <strong><Link to="/risorse-multimediali" className="text-dark text-decoration-underline">Risorse multimediali</Link></strong>: Un ottimo modo per misurare la veridicità di un URL e altre informazioni utili.
               </li>
               <li className="mb-3">
-                ✅ Bioparchi: Breve introduzione ai bioparchi e alle Fake News che ne riguardano.
+                <strong><Link to="/BioparchiPage" className="text-dark text-decoration-underline">Bioparchi</Link></strong>: Breve introduzione ai bioparchi e alle Fake News che ne riguardano.
               </li>
             </ul>
             <Button
