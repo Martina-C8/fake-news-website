@@ -43,7 +43,7 @@ const BioparchiPage = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
           >
-            <h2 className="text-secondary mb-3">Cosa sono i bioparchi?</h2>
+            <h2 className="text-secondary mb-3 text-decoration-underline">Cosa sono i bioparchi?</h2>
             <p className="text-muted">
               I bioparchi sono strutture specializzate che ospitano specie animali per la loro protezione, la conservazione e l'educazione del pubblico. 
               A differenza degli zoo tradizionali, i bioparchi promuovono il benessere animale attraverso ambienti che imitano gli habitat naturali e supportano programmi di ricerca e riproduzione per specie a rischio.
