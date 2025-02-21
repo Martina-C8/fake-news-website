@@ -72,7 +72,7 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <h2 className="text-primary mb-3">Lascia la tua opinione!</h2>
+            <h2 className="text-primary mb-3">La tua opinione è importante</h2>
             <p className="text-muted mb-4">
               Compila il modulo qui sotto per condividere il tuo punto di vista sulle fake news ambientali.
             </p>
