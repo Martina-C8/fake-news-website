@@ -101,7 +101,7 @@ function FattiVsMiti() {
       statement: 'Il trasporto pubblico è una delle soluzioni più efficaci per ridurre l\'inquinamento atmosferico.',
       isTrue: true,
       source: 'https://www.otovo.it/blog/mobilita-sostenibile/',
-      image: 'https://www.simtur.it/wp-content/uploads/2021/05/autobus-trasporto-pubblico-locale.jpg',
+      image: 'https://img.economyup.it/wp-content/uploads/2020/09/shutterstock_1462012364.jpg',
     },
     {
       statement: 'I bioparchi sono la causa dell\'abbattimento di alberi nelle foreste.',
