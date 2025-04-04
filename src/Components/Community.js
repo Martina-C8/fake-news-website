@@ -44,9 +44,9 @@ function Community() {
   return (
     <div className="community-container">
       <div className="intro-section">
-        <img src="https://blog.empuls.io/it/content/images/2023/09/manager-feedback-.png" alt="Feedback e Domande" className="intro-image img-fluid" />
+        <img src="https://blog.empuls.io/it/content/images/2023/09/manager-feedback-.png" alt="Feedback e Domande" className="img-fluid img-community" />
         <p className="intro-text">
-          Le tue domande e il tuo feedback sono molto importanti per noi! Non esitare a chiedere qualsiasi informazione o a condividere il tuo pensiero. Il tuo contributo ci aiuta a migliorare e a crescere.
+          Le tue domande e il tuo feedback sono molto importanti per noi! Non esitare a chiedere qualsiasi informazione o a condividere il tuo pensiero. <b>Il tuo contributo ci aiuta a migliorare e a crescere.</b>
         </p>
       </div>
 

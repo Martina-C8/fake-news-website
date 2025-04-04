@@ -146,4 +146,6 @@ body {
     max-width: 700px;
     margin: 0 auto;
   }
-  
+  .img-community {
+    margin-bottom: 15px;
+  }
